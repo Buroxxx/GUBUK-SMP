@@ -151,10 +151,10 @@ footer {
 
 @keyframes slideInAnimation {
     from {
-      transform: translateX(-100%); /* Mulai dari luar layar di kiri */
+      transform: translateX(100%); /* Mulai dari luar layar di kiri */
     }
     to {
-      transform: translateX(0); /* Geser ke posisi semula */
+      transform: translateX(-100); /* Geser ke posisi semula */
     }
   }
 
